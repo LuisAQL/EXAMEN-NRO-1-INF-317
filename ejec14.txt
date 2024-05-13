@@ -1,0 +1,18 @@
+14. Según la taxonomía de Flynn clasifique OPENMP, MPI y Multiprocessing. Justifique su respuesta.
+
+
+La taxonomía de Flynn es un método para clasificar las arquitecturas de computadoras paralelas en función 
+de como se dividen y se asignan las instrucciones y los datos. 
+
+OPENMP permite a los programadores escribir código para ejecutarse en múltiples núcleos de un solo procesador o en múltiples 
+procesadores de un sistema informático. 
+OPENMP utiliza un modelo de programación MIMD, donde cada núcleo o procesador ejecuta su propia copia del código. 
+La comunicación entre los núcleos o procesadores se realiza mediante variables compartidas y mecanismos de sincronización.
+
+MPI permite a los programadores escribir código para ejecutarse en múltiples procesadores de un sistema. 
+MPI utiliza un modelo de programación MIMD, donde tiene su propia memoria y espacio de direcciones. 
+La comunicación entre los procesadores se realiza mediante el envío y recepción de mensajes.
+
+Multiprocessing proporciona una forma de crear procesos paralelos. 
+El módulo multiprocessing utiliza un modelo de programación MIMD, donde cada proceso tiene su propia memoria y espacio de direcciones. 
+La comunicación entre los procesos se realiza mediante tuberías, colas y otros mecanismos de sincronización
