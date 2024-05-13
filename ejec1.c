@@ -22,7 +22,6 @@ int main() {
     //system("pause");
     return 0;
 }
-
 int suma(int *a, int *b) {
     return *a + *b;
 }
